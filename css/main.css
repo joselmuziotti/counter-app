@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  color: var(--primary-color);
+  letter-spacing: 5px;
+}
+
+span {
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.btn {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 5px 10px;
+  border: 2px solid var(--secondary-color);
+  background-color: transparent;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  transition: all 0.3s ease-in-out;
+}
